@@ -30,6 +30,10 @@ import UseEffect from "./components/18-useefect/useeffect";
 import UseEffect2 from "./components/18-useefect/useeffect2";
 import Clock3 from "./components/19-clock3/clock3";
 import CountryFilter from "./components/20-country-filter/country-filter";
+import Scroll from "./components/21-useref/scroll";
+import Useref from "./components/21-useref/useref";
+import ClassComp from "./components/22-class-type-component/class-comp";
+
 
 
 const App = () => {
@@ -69,10 +73,13 @@ const App = () => {
         <UseEffect />
         <Clock3 />
         <UseEffect2 />
+        <CountryFilter />
+        <Useref/>
+        <Scroll/>
  */}
 
 
-      <CountryFilter />
+      <ClassComp/>
 
     </div>
   );
